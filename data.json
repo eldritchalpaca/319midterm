@@ -1,0 +1,46 @@
+{
+    "Mushroom": [
+        {
+            "name": "Autumn Skullcap",
+            "image": "./images/autumnskullcap.jpg",
+            "description": "This is sometimes confused with edible varietals like honey fungus, sheathed woodtuft, and velvet foot. Like many toxic species of mushroom, the skullcap contains amatoxin and can result in death within seven days.",
+            "imgSource": "https://www.flickr.com/photos/lasse_chr/5195533789"
+        },
+
+        {
+            "name": "Conocybe Filaris",
+            "image": "./images/conocybefilaris.jpg",
+            "description": "This commonly results in accidental poisoning because it is similar in appearance to the psilocybe mushroom - or magic mushrooms. However, consuming a conocybe filaris mushroom causes irreparable liver damage due to high levels of amatoxin.",
+            "imgSource": "https://www.inaturalist.org/taxa/179219-Conocybe-filaris"
+        },
+
+        {
+            "name": "Deadly Dapperling",
+            "image": "./images/deadlydapperling.jpg",
+            "description": "Accidentally eating the mushroom causes severe liver toxicity and if not treated immediately can be fatal. If untreated, the fatality rate of amatoxins is about 50% but is still 10% fatal if treated, depending on the amount consumed.",
+            "imgSource": "https://en.wikipedia.org/wiki/Lepiota_brunneoincarnata"
+        },
+
+        {
+            "name": "jfkdsjfkdjflksd",
+            "image": "",
+            "description": "",
+            "imgSource": ""
+        },
+
+        {
+            "name": "jfkdsjfkdjflksd",
+            "image": "",
+            "description": "",
+            "imgSource": ""
+        },
+
+        {
+            "name": "jfkdsjfkdjflksd",
+            "image": "",
+            "description": "",
+            "imgSource": ""
+        }
+    ]
+}
+
