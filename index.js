@@ -29,12 +29,16 @@ function appendData(data) {
             console.log(element);
             let div2 = document.createElement("div");
             let img = document.createElement("img");
+            let link = document.createElement("a");
+            link.href = `${element["imgSource"]}`
+            link.text = "image source"
             img.src = `${element["image"]}`;
             img.alt = `${element["name"]}`;
-            img.width = 300;
+            img.height = 300;
             col.appendChild(img);
-            div2.innerHTML = `${element["name"]} : ${element["description"]} <br>`;
+            div2.innerHTML = `${element["name"]}: ${element["description"]} <br>`;
             col.appendChild(div2);
+            col.appendChild(link);
             x++;
         }
     } // end of for

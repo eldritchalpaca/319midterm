@@ -3,43 +3,43 @@
         {
             "name": "Autumn Skullcap",
             "image": "./images/autumnskullcap.jpg",
-            "description": "This is sometimes confused with edible varietals like honey fungus, sheathed woodtuft, and velvet foot. Like many toxic species of mushroom, the skullcap contains amatoxin and can result in death within seven days.",
+            "description": "    This is sometimes confused with edible varietals like honey fungus, sheathed woodtuft, and velvet foot. Like many toxic species of mushroom, the skullcap contains amatoxin and can result in death within seven days.",
             "imgSource": "https://www.flickr.com/photos/lasse_chr/5195533789"
         },
 
         {
             "name": "Conocybe Filaris",
             "image": "./images/conocybefilaris.jpg",
-            "description": "This commonly results in accidental poisoning because it is similar in appearance to the psilocybe mushroom - or magic mushrooms. However, consuming a conocybe filaris mushroom causes irreparable liver damage due to high levels of amatoxin.",
+            "description": "    This commonly results in accidental poisoning because it is similar in appearance to the psilocybe mushroom - or magic mushrooms. However, consuming a conocybe filaris mushroom causes irreparable liver damage due to high levels of amatoxin.",
             "imgSource": "https://www.inaturalist.org/taxa/179219-Conocybe-filaris"
         },
 
         {
             "name": "Deadly Dapperling",
             "image": "./images/deadlydapperling.jpg",
-            "description": "Accidentally eating the mushroom causes severe liver toxicity and if not treated immediately can be fatal. If untreated, the fatality rate of amatoxins is about 50% but is still 10% fatal if treated, depending on the amount consumed.",
+            "description": "     Accidentally eating the mushroom causes severe liver toxicity and if not treated immediately can be fatal. If untreated, the fatality rate of amatoxins is about 50% but is still 10% fatal if treated, depending on the amount consumed.",
             "imgSource": "https://en.wikipedia.org/wiki/Lepiota_brunneoincarnata"
         },
 
         {
-            "name": "jfkdsjfkdjflksd",
-            "image": "",
-            "description": "",
-            "imgSource": ""
+            "name": "Deathcap",
+            "image": "./images/deathcap.jfif",
+            "description": "    Known as one of the most poisonous mushrooms in the northern hemisphere, the death cap lives up to its moniker by causing more than half of all mycetism fatalities. Even the slightest dose of a death cap can prove dangerous due to its high levels of amanitin, which causes damage to the liver and kidneys.",
+            "imgSource": "https://mdc.mo.gov/discover-nature/field-guide/destroying-angel"
         },
 
         {
-            "name": "jfkdsjfkdjflksd",
-            "image": "",
-            "description": "",
-            "imgSource": ""
+            "name": "Destroying Angel (Amanita Species)",
+            "image": "./images/destroyingangel.jpg",
+            "description": "    The destroying angel is the most common toxic mushroom worldwide, containing high levels of amatoxins that cause fatal mycetism.",
+            "imgSource": "https://mdc.mo.gov/discover-nature/field-guide/destroying-angel"
         },
 
         {
-            "name": "jfkdsjfkdjflksd",
-            "image": "",
-            "description": "",
-            "imgSource": ""
+            "name": "Podostroma Cornu-Damae",
+            "image": "./images/podostromacornudamae.jpg",
+            "description": "    The red fruiting bodies of this rare mushroom contain trichothecene mycotoxins, which can cause multiple organ failure.",
+            "imgSource": "https://inaturalist.ca/taxa/517830-Podostroma-cornu-damae"
         }
     ]
 }
