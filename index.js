@@ -27,6 +27,7 @@ function appendData(data) {
             row.appendChild(col);
 
             console.log(element);
+            let div = document.createElement("div");
             let div2 = document.createElement("div");
             let img = document.createElement("img");
             let link = document.createElement("a");
@@ -35,8 +36,11 @@ function appendData(data) {
             img.src = `${element["image"]}`;
             img.alt = `${element["name"]}`;
             img.height = 300;
+            div.innerText = element["name"];
+            div.classList.add("title");
+            div2.innerHTML = `${element["description"]} <br>`;
+            col.appendChild(div);
             col.appendChild(img);
-            div2.innerHTML = `${element["name"]}: ${element["description"]} <br>`;
             col.appendChild(div2);
             col.appendChild(link);
             x++;

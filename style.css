@@ -11,7 +11,6 @@ body {
 footer, header {
     min-height: 100%;
     padding:10px;
-    
 }
 
 .center {
@@ -34,4 +33,10 @@ footer, header {
 
 .navbar {
     margin-top: 10px;
+}
+
+.title {
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
 }
