@@ -10,7 +10,7 @@ body {
 
 footer, header {
     min-height: 100%;
-    padding: 10px;
+    padding:10px;
     
 }
 
@@ -25,4 +25,13 @@ footer, header {
     width: 50%;
     float:left;
     text-align: center;
+}
+
+.col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    margin-top: 10px;
 }
