@@ -25,6 +25,7 @@ footer, header {
     width: 50%;
     float:left;
     text-align: center;
+    display: block;
 }
 
 .col {
@@ -41,3 +42,11 @@ footer, header {
     padding: 5px;
     font-size: large;
 }
+
+.footer {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
