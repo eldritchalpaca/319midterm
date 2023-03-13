@@ -40,3 +40,8 @@ footer, header {
     padding: 5px;
     font-size: large;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -33,6 +33,19 @@
         </nav>
     </div>
 
+    <div id="filters">
+        <form>
+            <input type="checkbox" id="asia" name="asia" value="asia" onclick="filterByLocation()">
+            <label for="asia">Asia</label><br>
+            <input type="checkbox" id="europe" name="europe" value="europe" onclick="filterByLocation()">
+            <label for="europe">Europe</label><br>
+            <input type="checkbox" id="NA" name="NA" value="NA" onclick="filterByLocation()">
+            <label for="NA">North America</label><br>
+            <input type="checkbox" id="global" name="global" value="global" onclick="filterByLocation()">
+            <label for="global">Global</label><br>
+          </form>
+    </div>
+
     <div class="container text-center" id="main_container"></div>
     
 </body>
