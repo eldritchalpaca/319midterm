@@ -18,12 +18,14 @@ footer, header {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding:10px;
 }
 
 .column {
     width: 50%;
     float:left;
     text-align: center;
+    display: block;
 }
 
 .col {
@@ -45,3 +47,10 @@ footer, header {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+.footer {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
