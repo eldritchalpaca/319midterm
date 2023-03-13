@@ -36,9 +36,15 @@ function loadHome(data) {
             link.href = `${element["image_source"]}`
             link.text = "image source"
             link.style.textAlign = "center"
-            link.classList.add("center"); 
+            link.classList.add("center");
+            
+            let caption = document.createElement("div");
+            caption.innerText = `${element["text"]}`
+            caption.style.textAlign = "center"
+            caption.classList.add("center");
 
             div.appendChild(img);
+            div.appendChild(caption);
             div.appendChild(link); 
             mainContainer.appendChild(div);
         }
