@@ -20,20 +20,14 @@
         _data = data;
         
         let mainContainer = document.getElementById("main_container");
-        let row = document.createElement("div");
-        row.classList.add("row");
-        mainContainer.appendChild(row);
-        let x = 0;
+        // let row = document.createElement("div");
+        // row.classList.add("row");
+        // mainContainer.appendChild(row);
         for (let name in data) {
             for (let element of data[name]) {
-                if (x % 3 == 0) {
-                    row = document.createElement("div");
-                    row.classList.add("row");
-                    mainContainer.appendChild(row);
-                }
                 let col = document.createElement("div");
                 col.classList.add("col");
-                row.appendChild(col);
+                mainContainer.appendChild(col);
     
                 let divName = document.createElement("div");
                 let divDesc = document.createElement("div");
@@ -46,13 +40,12 @@
                 img.height = 300;
                 divName.innerText = element["name"];
                 divName.classList.add("title");
-                divDesc.innerHTML = `${element["description"]} <br> found in ${element["location"]}`;
+                divDesc.innerHTML = `${element["description"]} <br> found: ${element["location"]}`;
                 col.appendChild(divName);
                 col.appendChild(img);
                 col.appendChild(divDesc);
                 col.appendChild(link);
                 entries.push(col);
-                x++;
             }
         } // end of for
     } // end of function appendData
@@ -78,7 +71,6 @@
     function filter() {
 
         document.getElementById("main_container").innerHTML = "";
-        document.getElementById("main_container").classList.add("grid");
 
         let validRegions = [];
         let display = [];
