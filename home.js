@@ -17,11 +17,11 @@ function loadHome(data) {
         for (let element of data[name]) {
             let div = document.createElement("div");
             div.classList.add("carousel-item");
+            
             if (x == 0) {
                 div.classList.add("active");
                 x++;
             }
-            
             
             let img = document.createElement("img");
             img.src = `${element["image"]}`;
