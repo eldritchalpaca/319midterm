@@ -47,6 +47,11 @@ footer, header {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+.floater {
+    float: left;
+}
+
 .footer {
     position: absolute;
     left: 50%;

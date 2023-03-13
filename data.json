@@ -47,6 +47,60 @@
             "location": ["asia"],
             "imgSource": "https://inaturalist.ca/taxa/517830-Podostroma-cornu-damae"
         }
+    ],
+
+    "SmallPlant": [
+        {
+            "name": "Poison Oak",
+            "image": "./images/poison_oak.jpg",
+            "description": "    Though it grows all over the country, it’s more common in the West. It could be hours or days before your skin reacts to the plant sap (urushiol). And your rash may eventually turn bumpy and form blisters that ooze.",
+            "location": ["north america"],
+            "imgSource": "https://en.wikipedia.org/wiki/Toxicodendron_diversilobum"
+        },
+
+        {
+            "name": "Atropa Belladonna",
+            "image": "./images/atropa_belladonna.jpg",
+            "description": "    This extremely poisonous plant has a long and colorful history of use and abuse. When Linnaeus formally applied a scientific name to this plant in 1753, he acknowledged its toxic nature as well as its social value.",
+            "location": ["asia", "north america", "europe"],
+            "imgSource": "https://commons.wikimedia.org/wiki/File:Atropa_belladonna_Pokrzyk_wilcza_jagoda_2016-07-23_02.jpg"
+        },
+
+        {
+            "name": "Bitter Nightshade",
+            "image": "./images/bitter_nightshade.jpg",
+            "description": "    Purple flowers in groups of three or more bloom around July or August. Kids are sometimes drawn to the roundish, juicy, glossy, red, poisonous berries. The poison (solanine) can give you headache, drowsiness, stomachache, vomiting, trembling, lowered temperature, dilated pupils, and diarrhea.",
+            "location": ["asia", "north america", "europe"],
+            "imgSource": "https://www.webmd.com/skin-problems-and-treatments/ss/slideshow-poison-plants-guide"
+        },
+
+        {
+            "name": "Oleander",
+            "image": "./images/oleander.jpg",
+            "description": "    Bright clusters of flowers bloom at the ends of branches in colors that vary from red and pink to white. All parts of the plant are very poisonous. Just one leaf is enough to kill an adult. You may have serious stomach pain, diarrhea, vomiting, dilated pupils, dizziness, and breathing problems.",
+            "location": ["asia", "north america", "europe"],
+            "imgSource": "https://www.webmd.com/skin-problems-and-treatments/ss/slideshow-poison-plants-guide"
+        }
+    ],
+
+    "Tree": [
+        {
+            "name": "Hura Crepitans/Sandbox Tree",
+            "image": "./images/sandbox_tree.jpg",
+            "description": "    This tree is famous for its pointed spines all along its trunk. It also produces poisonous sap that causes skin rashes. The fruits of this tree tend to explode and spread their seeds in different directions after getting matured. The speed of its seeds can reach up to 240 km per hour and can be very dangerous for any people or animals standing in that range.",
+            "location": ["north america", "south america"],
+            "imgSource": "https://www.green.earth/blog/top-10-dangerous-trees"
+        },
+
+        {
+            "name": "Manchineel Tree",
+            "image": "./images/manchineel_tree.jpg",
+            "description": "    Manchineel tree is native to the Caribbean coasts, including regions such as Florida, Central and South America, and Mexico. It is nicknamed the Manzanilla de la Muerte - little apple of death - for a reason. The fruit can be potentially fatal, and the milky sap from the tree causes extreme allergic reactions and blisters.",
+            "location": ["north america", "south america"],
+            "imgSource": "https://www.green.earth/blog/top-10-dangerous-trees"
+        }
     ]
+
+
 }
 

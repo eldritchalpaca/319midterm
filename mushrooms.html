@@ -33,20 +33,43 @@
         </nav>
     </div>
 
-    <div id="filters">
+    <div id="filters" class="floater">
         <form>
-            <input type="checkbox" id="asia" name="asia" value="asia" onclick="filterByLocation()">
+            <h3>Filter by Location</h3>
+            <input type="checkbox" id="asia" name="asia" value="asia" onclick="filter()">
             <label for="asia">Asia</label><br>
-            <input type="checkbox" id="europe" name="europe" value="europe" onclick="filterByLocation()">
+            <input type="checkbox" id="europe" name="europe" value="europe" onclick="filter()">
             <label for="europe">Europe</label><br>
-            <input type="checkbox" id="NA" name="NA" value="NA" onclick="filterByLocation()">
+            <input type="checkbox" id="NA" name="NA" value="NA" onclick="filter()">
             <label for="NA">North America</label><br>
-            <input type="checkbox" id="global" name="global" value="global" onclick="filterByLocation()">
+            <input type="checkbox" id="SA" name="SA" value="SA" onclick="filter()">
+            <label for="NA">South America</label><br>
+            <input type="checkbox" id="global" name="global" value="global" onclick="filter()">
             <label for="global">Global</label><br>
+          </form>
+          <form>
+            <h3>Filter by Type</h3>
+            <input type="checkbox" id="mushroom" name="mushroom" value="mushroom" onclick="filter()">
+            <label for="mushroom">Mushroom</label><br>
+            <input type="checkbox" id="plant" name="plant" value="plant" onclick="filter()">
+            <label for="plant">Small Plants</label><br>
+            <input type="checkbox" id="tree" name="tree" value="tree" onclick="filter()">
+            <label for="tree">Tree</label><br>
           </form>
     </div>
 
     <div class="container text-center" id="main_container"></div>
+
+    <div class="sources">
+        <h2>The following were the sources used for information on the above organisms:</h2>
+        <ul>
+            <li>https://www.fs.usda.gov/wildflowers/ethnobotany/Mind_and_Spirit/belladonna.shtml</li>
+            <li>https://www.webmd.com/skin-problems-and-treatments/ss/slideshow-poison-plants-guide</li>
+            <li>https://www.green.earth/blog/top-10-dangerous-trees</li>
+            <li>https://www.worldatlas.com/articles/8-most-poisonous-types-of-mushrooms.html</li>
+        </ul>
+
+    </div>
     
 </body>
 </html>
